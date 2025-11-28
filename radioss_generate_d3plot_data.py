@@ -17,7 +17,7 @@ def format_radioss_field(value):
     except ValueError:
         return "        "
 
-def modify_radioss_deck(input_filepath, output_filepath, prop_id_to_change, new_thickness):
+def modify_radioss_starter(input_filepath, output_filepath, prop_id_to_change, new_thickness):
 
     try:
         if not os.path.exists(input_filepath):
@@ -29,7 +29,7 @@ def modify_radioss_deck(input_filepath, output_filepath, prop_id_to_change, new_
             in_prop_shell = False
             modifications_made = 0
             prop_id_str=""
-            # Counter for lines inside the /PROP/SHELL block (starts after /PROP/SHELL line)
+            # Counter for lines inside /PROP/SHELL block (starts after /PROP/SHELL line)
             line_counter = 0
             modified_line = ""
             for line in infile:
@@ -122,7 +122,7 @@ if __name__ == "__main__":
         new_engine_file_with_path = new_sim_path+"_0001.rad"
 
 
-        modify_radioss_deck(master_sim_file,new_sim_file_with_path, 2, new_thickness)
+        modify_radioss_starter(master_sim_file,new_sim_file_with_path, 2, new_thickness)
         copy_engine_file(master_engine_file_with_path,new_engine_file_with_path)
         
 
