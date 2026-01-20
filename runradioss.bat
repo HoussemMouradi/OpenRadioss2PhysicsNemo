@@ -1,3 +1,5 @@
+echo off
+
 set OPENRADIOSS_PATH=%1
 set sim_path=%2
 set sim_file_name=%3
