@@ -100,8 +100,9 @@ if __name__ == "__main__":
     # The ID of "/PROP/SHELL" you want to modify its thickness
     prop_id = 2
     # Number of simulation runs
+    number_of_sims = 14
     """""
-    The data structure will be like this:
+    The generated data structure:
 
     ├── Run100/   
     │       ├── sim_name.d3plot
@@ -113,7 +114,6 @@ if __name__ == "__main__":
     │       └── sim_name_0001.rad
     └── ...
     """""
-    number_of_sims = 10
     ###########################################################
 
     os.mkdir(sim_path + "/RAW_DATA")
