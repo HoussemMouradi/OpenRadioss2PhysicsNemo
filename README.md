@@ -168,7 +168,7 @@ Designed to run locally on a Windows machine with Jupyter installed.
 
 Designed for Linux environments and Google Colab. All outputs are saved to local storage (`/content/RAW_DATA/` on Colab).
 
-> 🔗 **Open in Google Colab:** *(link coming soon)*
+> 🔗 Open in Google Colab:  <a href="https://colab.research.google.com/github/HoussemMouradi/OpenRadioss2PhysicsNeMo/blob/main/OpenRadioss2PhysicsNeMo_linux.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 **Steps covered in the notebook:**
 1. Download and extract OpenRadioss Linux binaries
