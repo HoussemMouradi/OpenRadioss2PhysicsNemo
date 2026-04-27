@@ -1,2 +1,3 @@
 lasso-python
 tqdm
+psutil
