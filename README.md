@@ -116,10 +116,6 @@ RAW_DATA/
 └── ...
 ```
 
-> **Note (Windows):** The script calls `runradioss.bat` to launch the solver. Make sure it is present in the working directory.
->
-> **Note (Linux):** Replace the `run_radioss` function call to use `runradioss.sh` instead of `runradioss.bat`, or run the solver commands directly.
-
 ### Step 2 — Generate the Global Features JSON
 
 Once all simulations are complete, extract the simulation parameters (shell thickness, pole position, initial velocity) from each starter file into a single JSON file used by PhysicsNeMo as global features:
