@@ -96,6 +96,6 @@ if __name__ == '__main__':
         './TRAINING_DATA',
         './VALIDATION_DATA'
     ]
-    OUTPUT_JSON_FILE = 'simulation_parameters.json'
+    OUTPUT_JSON_FILE = 'GLOBAL_FEATURES.json'
     
     extract_simulation_data(DIRECTORIES_TO_SCAN, OUTPUT_JSON_FILE)
