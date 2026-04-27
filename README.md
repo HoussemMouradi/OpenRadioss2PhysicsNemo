@@ -7,4 +7,4 @@ The OpenRadioss Bumper Beam example preview:
 
 The OpenRadioss ANIM output files are converted to d3plot files with [**Vortex-Radioss**](https://github.com/Vortex-CAE/Vortex-Radioss) tool to utilize the d3plot reader available in the PhysicsNemo crash example.<br>
 To use this script you need download OpenRadioss from: https://github.com/OpenRadioss/OpenRadioss/releases<br>
-To Just get the dataset used for training, you can get it here: (https://huggingface.co/datasets/AIRBORNEPANDA/BumperBeamCrashExample)
+To Just get the dataset used for training, you can get it here: https://huggingface.co/datasets/AIRBORNEPANDA/BumperBeamCrashExample
