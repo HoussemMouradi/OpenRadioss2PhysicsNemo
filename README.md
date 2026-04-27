@@ -38,15 +38,8 @@ OpenRadioss2PhysicsNeMo/
 Download the pre-built binaries for your platform from the official releases page:
 
 - **Windows:** [OpenRadioss releases](https://github.com/OpenRadioss/OpenRadioss/releases) → download `OpenRadioss_win64.zip`
-- **Linux:** [OpenRadioss releases](https://github.com/OpenRadioss/OpenRadioss/releases) → download `OpenRadioss_linux64.zip`
 
 Extract the archive so that the `OpenRadioss/` folder sits alongside this repository (or adjust the path in the scripts).
-
-On Linux, grant execute permissions to the binaries after extraction:
-
-```bash
-chmod +x /path/to/OpenRadioss/exec/*
-```
 
 ### 2. Python
 
